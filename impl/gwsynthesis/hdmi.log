@@ -1,0 +1,171 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\gowin_clkdiv\gowin_clkdiv.v'
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_openldi.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_openldi.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_openldi.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_openldi.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tmds.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tmds.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tmds.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tmds.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_vdma.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_vdma.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_vdma.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_vdma.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v'
+Analyzing included file 'C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_defines.vh'("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":21)
+Back to file 'C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v'("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":21)
+Analyzing Verilog file 'C:\Users\pckle\OneDrive\Desktop\pong\src\top.v'
+Undeclared symbol 'clk_p5', assumed default net type 'wire'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":15)
+Undeclared symbol 'pll_lock', assumed default net type 'wire'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":16)
+Undeclared symbol 'clk_p', assumed default net type 'wire'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":20)
+Undeclared symbol 'sys_resetn', assumed default net type 'wire'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":26)
+Compiling module 'top'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":1)
+Compiling module 'Gowin_rPLL'("C:\Users\pckle\OneDrive\Desktop\pong\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'Gowin_CLKDIV'("C:\Users\pckle\OneDrive\Desktop\pong\src\gowin_clkdiv\gowin_clkdiv.v":9)
+Compiling module 'Reset_Sync'("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":51)
+WARN  (EX3073) : Port 'auto_btn' remains unconnected for this instance("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":124)
+Compiling module 'svo_hdmi'("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":23)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":78)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\svo_hdmi.v":81)
+Compiling module 'svo_tcard(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":23)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":33)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":139)
+WARN  (EX3791) : Expression size 28 truncated to fit in target size 27("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":141)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":144)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":145)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":146)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":149)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":150)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":153)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":154)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":159)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":161)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":175)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":177)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":178)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":181)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":183)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tcard.v":184)
+Compiling module 'svo_pong(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":33)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":53)
+Compiling module 'svo_pong_control(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":109)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":120)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":197)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":198)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":210)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":211)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":224)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":225)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":229)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":230)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":248)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":249)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":253)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":254)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":269)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":285)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":315)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":335)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":337)
+Compiling module 'svo_pong_video(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":350)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":371)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":384)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":389)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":391)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":392)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":393)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":394)
+Compiling module 'svo_dim(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":178)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":195)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":195)
+Compiling module 'svo_axis_pipe(TDATA_WIDTH=24)'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":31)
+Compiling module 'svo_rect(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":359)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":372)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":390)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":392)
+Compiling module 'svo_overlay(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":250)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":275)
+WARN  (EX3791) : Expression size 2 truncated to fit in target size 1("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":303)
+Compiling module 'svo_buf(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":101)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":121)
+Compiling module 'svo_buf(TUSER_WIDTH=2,SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":101)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":121)
+Compiling module 'svo_axis_pipe(TDATA_WIDTH=24,TUSER_WIDTH=2)'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_utils.v":31)
+Compiling module 'svo_pong_scores(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":486)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":498)
+Extracting RAM for identifier 'per_digit_y'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":645)
+Extracting RAM for identifier 'font'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":769)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":505)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":507)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":527)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":529)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":570)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":571)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":577)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":578)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":584)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":585)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":591)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":592)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":595)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":596)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":597)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":752)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":753)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":754)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":755)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 4("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":756)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":848)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 1("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_pong.v":476)
+Compiling module 'svo_enc(SVO_MODE="640x480V")'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":23)
+WARN  (EX3045) : Case equality operator always evaluates to false due to comparison with 'x' or 'z'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":43)
+Extracting RAM for identifier 'ctrl_fifo'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":48)
+Extracting RAM for identifier 'pixel_fifo'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":51)
+Extracting RAM for identifier 'out_fifo'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":54)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":92)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":96)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":98)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":110)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":125)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":129)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":130)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":133)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":134)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":135)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":155)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_enc.v":159)
+Compiling module 'svo_tmds'("C:\Users\pckle\OneDrive\Desktop\pong\src\hdmi\svo_tmds.v":23)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input btn is unused("C:\Users\pckle\OneDrive\Desktop\pong\src\top.v":4)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\pckle\OneDrive\Desktop\pong\impl\gwsynthesis\hdmi.vg" completed
+[100%] Generate report file "C:\Users\pckle\OneDrive\Desktop\pong\impl\gwsynthesis\hdmi_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top">
+    <SubModule name="u_pll"/>
+    <SubModule name="u_div_5"/>
+    <SubModule name="u_Reset_Sync" Register="4" Alu="4" Lut="2"/>
+    <SubModule name="svo_hdmi_inst" Register="4" Lut="2">
+        <SubModule name="svo_tcard" Register="190" Alu="66" Lut="304" Dsp="1" Bsram="1"/>
+        <SubModule name="svo_pong" Lut="1">
+            <SubModule name="svo_pong_control" Register="172" Alu="124" Lut="490"/>
+            <SubModule name="svo_pong_video" Register="88" Alu="60" Lut="4">
+                <SubModule name="compose_1" Register="26" Lut="23">
+                    <SubModule name="svo_axis_pipe" Register="52" Lut="30"/>
+                </SubModule>
+                <SubModule name="compose_2" Register="33" Lut="108"/>
+                <SubModule name="compose_3" Lut="55">
+                    <SubModule name="svo_buf_in" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="6"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_over" Register="4" Lut="1">
+                        <SubModule name="svo_axis_pipe" Register="8" Lut="3"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_out" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="31"/>
+                    </SubModule>
+                </SubModule>
+                <SubModule name="compose_4" Register="33" Lut="107"/>
+                <SubModule name="compose_5" Lut="55">
+                    <SubModule name="svo_buf_in" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="6"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_over" Register="4" Lut="1">
+                        <SubModule name="svo_axis_pipe" Register="8" Lut="3"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_out" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="31"/>
+                    </SubModule>
+                </SubModule>
+                <SubModule name="compose_6" Register="122" Alu="26" Lut="247" Bsram="5" Ssram="1"/>
+                <SubModule name="compose_7" Lut="55">
+                    <SubModule name="svo_buf_in" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="6"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_over" Register="4" Lut="2">
+                        <SubModule name="svo_axis_pipe" Register="8" Lut="6"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_out" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="31"/>
+                    </SubModule>
+                </SubModule>
+                <SubModule name="compose_8" Register="33" Lut="133"/>
+                <SubModule name="compose_9" Lut="55">
+                    <SubModule name="svo_buf_in" Register="3" Lut="2" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="6"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_over" Register="4" Lut="1">
+                        <SubModule name="svo_axis_pipe" Register="8" Lut="3"/>
+                    </SubModule>
+                    <SubModule name="svo_buf_out" Register="3" Lut="3" Ssram="6">
+                        <SubModule name="svo_axis_pipe" Register="28" Lut="30"/>
+                    </SubModule>
+                </SubModule>
+            </SubModule>
+        </SubModule>
+        <SubModule name="svo_enc" Register="285" Alu="6" Lut="250" Ssram="7"/>
+        <SubModule name="svo_tmds_0" Register="18" Alu="35" Lut="100" Ssram="3"/>
+        <SubModule name="svo_tmds_1" Register="18" Alu="35" Lut="99" Ssram="3"/>
+        <SubModule name="svo_tmds_2" Register="19" Alu="35" Lut="106" Ssram="3"/>
+    </SubModule>
+</Module>
